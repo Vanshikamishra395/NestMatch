@@ -1,0 +1,34 @@
+.listing-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 650px;
+}
+
+.listing-form input,
+.listing-form textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 15px;
+}
+
+.listing-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.listing-form button {
+  padding: 14px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.listing-form button:hover {
+  background: #1d4ed8;
+}
