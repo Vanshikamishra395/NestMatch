@@ -1,67 +1,131 @@
 # 🏠 NestMatch
 
-An AI-powered rental matching platform that helps tenants discover suitable rental properties while enabling property owners to list and manage their properties efficiently.
+<div align="center">
+
+### AI-Powered Rental Matching Platform
+
+Find the right room, not just an available one.
+
+Built with **React • Node.js • Express • MySQL**
+
+</div>
 
 ---
 
-## ✨ Features
+## 📌 Overview
 
-### 👤 Authentication
+NestMatch is a full-stack rental platform that connects tenants and property owners through an intelligent rental matching system.
+
+Instead of simply displaying available properties, NestMatch evaluates compatibility based on multiple factors such as:
+
+- 💰 Budget
+- 📍 Preferred Location
+- 🏡 Room Type
+- 🛋 Amenities
+
+The platform then generates an AI-powered compatibility score to help users discover the most suitable rental option.
+
+---
+
+# ✨ Features
+
+## 👤 Authentication
+
 - User Registration
 - Secure Login
-- Role-based Access (Owner & Tenant)
+- Role-based Access
+- Tenant Dashboard
+- Owner Dashboard
 
-### 🏡 Property Listings
-- Create rental listings
-- View available properties
-- Detailed property page
-- Property image gallery
-- Amenities display
+---
 
-### 🤖 AI Compatibility Matching
-- AI-generated compatibility score
-- Budget matching
-- Location preference analysis
-- Room type comparison
-- Amenities comparison
-- Personalized recommendations
+## 🏡 Property Management
 
-### ❤️ Tenant Interest
-- Show interest in properties
-- Owner receives tenant interest
-- Simple communication workflow
+- Add New Listings
+- Browse Available Properties
+- Property Gallery
+- Listing Details
+- Amenities Display
+- Owner Information
 
-### 👨‍💼 Owner Information
-- Verified owner details
-- Contact owner directly
-- Professional owner profile section
+---
 
-### 📱 Responsive UI
-- Mobile-friendly
-- Modern interface
-- Clean user experience
+## 🤖 AI Compatibility
+
+- AI Match Score
+- Budget Analysis
+- Location Matching
+- Room Type Comparison
+- Amenities Matching
+- Personalized Recommendations
+
+---
+
+## ❤️ Tenant Interaction
+
+- Show Interest
+- Contact Owner
+- Verified Listings
+
+---
+
+## 📱 Responsive Design
+
+- Modern UI
+- Mobile Friendly
+- Smooth User Experience
 
 ---
 
 # 🛠 Tech Stack
 
-## Frontend
+### Frontend
+
 - React.js
 - React Router
 - CSS3
 - JavaScript (ES6)
 
-## Backend
+### Backend
+
 - Node.js
 - Express.js
 
-## Database
+### Database
+
 - MySQL
 
-## Other Tools
-- REST API
-- Fetch API
-- Git & GitHub
+### Tools
+
+- Git
+- GitHub
+- REST APIs
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+<img src="./screenshots/home.png" width="100%">
+
+---
+
+## Featured Listings
+
+<img src="./screenshots/featured-listings.png" width="100%">
+
+---
+
+## Property Details
+
+<img src="./screenshots/listing-details.png" width="100%">
+
+---
+
+## AI Compatibility
+
+<img src="./screenshots/ai-match.png" width="100%">
 
 ---
 
@@ -80,6 +144,7 @@ NestMatch
 ├── backend
 │   ├── controllers
 │   ├── routes
+│   ├── services
 │   ├── db.js
 │   ├── server.js
 │   └── package.json
@@ -89,15 +154,15 @@ NestMatch
 
 ---
 
-# 🚀 Getting Started
+# 🚀 Installation
 
-## Clone Repository
+Clone the repository
 
 ```bash
-git clone <your-github-link>
+git clone https://github.com/Vanshikamishra395/NestMatch.git
 ```
 
-## Install Frontend
+Frontend
 
 ```bash
 cd frontend
@@ -105,7 +170,7 @@ npm install
 npm run dev
 ```
 
-## Install Backend
+Backend
 
 ```bash
 cd backend
@@ -115,33 +180,20 @@ npm start
 
 ---
 
-# 📌 Core Functionalities
+# 💡 Future Enhancements
 
-- Property Listing
-- AI Compatibility Analysis
-- Owner Dashboard
-- Tenant Dashboard
-- Authentication
-- Image Gallery
-- Owner Contact
-- Interest Management
-
----
-
-# 🔮 Future Enhancements
-
-- Chat between tenant and owner
-- Google Maps integration
-- Email notifications
-- Payment gateway
-- AI roommate recommendations
-- Advanced property search
-- Saved properties
-- Reviews & ratings
+- Google Maps Integration
+- AI Roommate Matching
+- Chat System
+- Email Notifications
+- Wishlist / Saved Listings
+- Property Reviews
+- Payment Integration
+- Recommendation Engine
 
 ---
 
-# 👩‍💻 Developed By
+# 👩‍💻 Developer
 
 **Vanshika Mishra**
 
@@ -149,6 +201,9 @@ B.Tech CSE (IoT)
 
 PSIT Kanpur
 
+GitHub:
+https://github.com/Vanshikamishra395
+
 ---
 
-⭐ If you like this project, consider giving it a star.
+## ⭐ If you found this project useful, consider giving it a star.
