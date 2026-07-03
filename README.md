@@ -1,25 +1,27 @@
 # 🏠 NestMatch
 
-::: {align="center"}
-## AI-Powered Rental & Flatmate Finder
+<div align="center">
+
+# 🏠 NestMatch
+
+### AI-Powered Rental & Flatmate Finder
 
 Find the right room, not just an available one.
 
-A full-stack rental platform that uses **Google Gemini AI** to evaluate
-property compatibility based on user preferences.
+A full-stack rental platform that uses **Google Gemini AI** to evaluate property compatibility based on user preferences.
 
 **Built with React • Node.js • Express.js • MySQL • Google Gemini AI**
 
 ### 🌐 Live Demo
 
--   🚀 **Frontend:** <https://nestmatch-ai-rental.netlify.app>
--   ⚙️ **Backend API:** <https://nestmatch-gxfn.onrender.com>
--   💻 **GitHub:** <https://github.com/Vanshikamishra395/NestMatch>
-:::
+- 🚀 **Frontend:** <https://nestmatch-ai-rental.netlify.app>
+- ⚙️ **Backend API:** <https://nestmatch-gxfn.onrender.com>
+- 💻 **GitHub:** <https://github.com/Vanshikamishra395/NestMatch>
 
-------------------------------------------------------------------------
+</div>
 
-# 📖 About
+
+# # 📖 About NestMatch
 
 NestMatch is an AI-powered rental and flatmate finder that helps users
 discover properties based on compatibility rather than availability
@@ -27,7 +29,7 @@ alone. Using Google Gemini AI, the platform analyzes user preferences
 and listing details to generate an intelligent compatibility score along
 with a summary, advantages, and considerations.
 
-------------------------------------------------------------------------
+---
 
 # ✨ Features
 
@@ -71,7 +73,7 @@ with a summary, advantages, and considerations.
 -   View Interested Tenants
 -   Update Listings
 
-------------------------------------------------------------------------
+---
 
 # 📸 Application Screenshots
 
@@ -103,25 +105,25 @@ with a summary, advantages, and considerations.
 
 
 
-------------------------------------------------------------------------
+---
 
 # 🛠 Tech Stack
 
-  Category          Technology
-  ----------------- --------------------------------
-  Frontend          React, JavaScript, HTML5, CSS3
-  Backend           Node.js, Express.js
-  Database          MySQL (Aiven Cloud)
-  AI                Google Gemini AI
-  Authentication    JWT
-  Deployment        Netlify, Render
-  Version Control   Git & GitHub
+| Category | Technology |
+|----------|------------|
+| Frontend | React, JavaScript, HTML5, CSS3 |
+| Backend | Node.js, Express.js |
+| Database | MySQL (Aiven Cloud) |
+| AI | Google Gemini AI |
+| Authentication | JWT |
+| Deployment | Netlify & Render |
+| Version Control | Git & GitHub |
 
-------------------------------------------------------------------------
+---
 
 # 🏗 Architecture
 
-``` text
+```text
 React Frontend
       │
  REST API
@@ -153,18 +155,18 @@ NestMatch/
 └── .gitignore
 ```
 
-------------------------------------------------------------------------
+---
 
 # 🚀 Installation
 
-``` bash
+```bash
 git clone https://github.com/Vanshikamishra395/NestMatch.git
 cd NestMatch
 ```
 
 ## Backend
 
-``` bash
+```bash
 cd backend
 npm install
 npm start
@@ -172,7 +174,7 @@ npm start
 
 ## Frontend
 
-``` bash
+```bash
 cd frontend
 npm install
 npm run dev
@@ -184,7 +186,7 @@ npm run dev
 
 Create `backend/.env`
 
-``` env
+```env
 PORT=5000
 DB_HOST=your_db_host
 DB_PORT=your_db_port
@@ -197,7 +199,7 @@ GEMINI_API_KEY=your_gemini_api_key
 
 > Never commit `.env` to GitHub.
 
-------------------------------------------------------------------------
+---
 
 # 🗄 Database
 
@@ -207,21 +209,21 @@ Tables:
 -   listings
 -   interests
 
-------------------------------------------------------------------------
+---
 
 # 🔗 REST API
 
-  Endpoint                     Description
-  ---------------------------- ---------------------------
-  POST /api/auth/register      Register user
-  POST /api/auth/login         Login
-  GET /api/listings            Get all listings
-  GET /api/listings/:id        Get listing details
-  POST /api/listings           Create listing
-  POST /api/ai/compatibility   Generate AI compatibility
-  POST /api/interests          Show interest
+ | Endpoint | Description |
+|----------|-------------|
+| POST /api/auth/register | Register User |
+| POST /api/auth/login | Login |
+| GET /api/listings | Fetch All Listings |
+| GET /api/listings/:id | Fetch Listing Details |
+| POST /api/listings | Create Listing |
+| POST /api/ai/compatibility | Generate AI Match |
+| POST /api/interests | Show Interest |
 
-------------------------------------------------------------------------
+---
 
 # 🤖 AI Compatibility Workflow
 
@@ -241,7 +243,7 @@ Returns:
 
 Example response:
 
-``` json
+```json
 {
   "score":92,
   "summary":"Excellent Match",
@@ -250,17 +252,17 @@ Example response:
 }
 ```
 
-------------------------------------------------------------------------
+---
 
 # ☁️ Deployment
 
-  Service    Platform
-  ---------- -------------
-  Frontend   Netlify
-  Backend    Render
-  Database   Aiven MySQL
+ | Service | Platform |
+|---------|----------|
+| Frontend | Netlify |
+| Backend | Render |
+| Database | Aiven MySQL |
 
-------------------------------------------------------------------------
+---
 
 # 📦 Main Dependencies
 
@@ -281,7 +283,7 @@ Example response:
 -   dotenv
 -   @google/generative-ai
 
-------------------------------------------------------------------------
+---
 
 # 🚀 Future Enhancements
 
@@ -293,7 +295,7 @@ Example response:
 -   AI Roommate Matching
 -   Online Payments
 
-------------------------------------------------------------------------
+---
 
 # 📋 Assignment Coverage
 
@@ -307,7 +309,7 @@ Example response:
 -   ✅ Responsive UI
 -   ✅ README Documentation
 
-------------------------------------------------------------------------
+---
 
 # 👩‍💻 Developer
 
@@ -319,27 +321,27 @@ Pranveer Singh Institute of Technology, Kanpur
 
 ### Connect
 
--   GitHub: https://github.com/Vanshikamishra395
--   LinkedIn: https://www.linkedin.com/in/vanshika-mishra/
+ - GitHub: <https://github.com/Vanshikamishra395>
+ - LinkedIn: <https://www.linkedin.com/in/vanshika-mishra03/>
 
-------------------------------------------------------------------------
+---
 
-# 🙏 Acknowledgements
+# Acknowledgements
 
 Built using React, Node.js, Express.js, MySQL, Google Gemini AI, Aiven,
 Render and Netlify.
 
-------------------------------------------------------------------------
+---
 
 # 📜 License
 
 This project is intended for educational, learning, and placement
 purposes.
 
-------------------------------------------------------------------------
+---
 
 ::: {align="center"}
 ## ⭐ If you found this project useful, consider giving it a Star!
 
-### Built with ❤️ by Vanshika Mishra
-:::
+### Built by Vanshika Mishra 
+
