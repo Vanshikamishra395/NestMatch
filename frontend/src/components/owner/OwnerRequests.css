@@ -1,0 +1,42 @@
+.owner-requests {
+  margin-top: 50px;
+}
+
+.owner-requests h2 {
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+.request-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 22px;
+}
+
+.request-card {
+  background: white;
+  border-radius: 18px;
+  padding: 24px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+}
+
+.request-card h3 {
+  margin: 0 0 16px;
+  color: #2563eb;
+}
+
+.request-card p {
+  margin: 10px 0;
+  color: #475569;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 16px;
+  background: #fef3c7;
+  color: #92400e;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+}

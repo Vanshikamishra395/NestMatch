@@ -1,5 +1,5 @@
 import { useState } from "react";
-import API_BASE_URL from "../services/api";
+import API_BASE_URL from "../../services/api";
 import "./ListingForm.css";
 
 function ListingForm() {

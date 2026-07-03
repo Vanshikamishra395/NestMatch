@@ -1,5 +1,6 @@
-import Navbar from "../../components/Navbar";
-import ListingForm from "../../components/ListingForm";
+import Navbar from "../../components/common/Navbar";
+import ListingForm from "../../components/listing/ListingForm";
+import OwnerRequests from "../../components/owner/OwnerRequests";
 
 function Dashboard() {
   return (
@@ -11,6 +12,7 @@ function Dashboard() {
         <p>Add a new room or apartment listing.</p>
 
         <ListingForm />
+          <OwnerRequests />
       </main>
     </>
   );
