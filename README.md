@@ -119,25 +119,33 @@ Owners can:
 
 ## 🏠 Home Page
 
-![Home Page](./screenshots/home.png)
+
+<img width="948" height="435" alt="Screenshot 2026-07-03 221113" src="https://github.com/user-attachments/assets/96474e54-c36c-49ac-b609-38f0c1072757" />
+
 
 ---
 
 ## 🏘️ Featured Listings
 
-![Featured Listings](./screenshots/featured-listing.png)
+
+<img width="944" height="430" alt="Screenshot 2026-07-03 221154" src="https://github.com/user-attachments/assets/f776f212-eb15-40cf-9731-cbfa7f93f83c" />
+
 
 ---
 
 ## 📄 Property Details
 
-![Property Details](./screenshots/listing-details.png)
+
+<img width="959" height="436" alt="Screenshot 2026-07-03 221213" src="https://github.com/user-attachments/assets/5c61d298-aaf3-4c03-acab-4bdf235cbdbf" />
+
 
 ---
 
 ## 🤖 AI Compatibility
 
-![AI Compatibility](./screenshots/ai-match.png)
+
+<img width="946" height="431" alt="Screenshot 2026-07-03 221247" src="https://github.com/user-attachments/assets/7bb89e0d-ef59-4dba-b15f-d7c01cc3745c" />
+
 
 ---
 
