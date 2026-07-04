@@ -338,10 +338,13 @@ Render and Netlify.
 This project is intended for educational, learning, and placement
 purposes.
 
+
 ---
 
-::: {align="center"}
+<div align="center">
+
 ## ⭐ If you found this project useful, consider giving it a Star!
 
-### Built by Vanshika Mishra 
+### Built by Vanshika Mishra
 
+</div>
