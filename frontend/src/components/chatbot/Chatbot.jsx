@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ChatButton from "./ChatButton";
 import ChatWindow from "./ChatWindow";
-import "./chatbot.css";
+import "./Chatbot.css";
 
 function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
