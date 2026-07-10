@@ -14,7 +14,7 @@ A full-stack rental platform that uses **Google Gemini AI** to evaluate property
 
 ### 🌐 Live Demo
 
-- 🚀 **Frontend:** <https://agent-6a4d42b9d70567b70f435--nestmatch-ai-rental.netlify.app/>
+- 🚀 **Frontend:** <https://nestmatch-ai-rental.netlify.app>
 - ⚙️ **Backend API:** <https://nestmatch-gxfn.onrender.com>
 - 💻 **GitHub:** <https://github.com/Vanshikamishra395/NestMatch>
 
